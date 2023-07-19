@@ -267,5 +267,56 @@
  }
 
  
+/* footer */
+.footer{
+  background-color: #0B0223;
+  padding: 120px 0;
+  text-align: center;
+}
+.footer-title{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.footer-title h1{
+  font-size: 45px;
+  font-weight: 700;
+  color: #fff;
+}
+.footer-link-container{
+  display: flex;
+  gap: 50px;
+  color: #fff;
+  margin: 50px 0;
+  justify-content: center;
+}
+.footer-link-container li{
+  list-style: none;
+  font-size: 18px ;
+  font-weight: 600;
+}
+.footer-icon a i{
+  font-size: 30px;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+.teams-condition{
+  display: flex;
+  gap: 50px;
+  margin-bottom: 20px;
+  justify-content: center;
+  
+}
+.teams-condition li{
+  list-style: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.60);
+}
+.copy-right p{
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.60);
 
+}
 

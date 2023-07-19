@@ -105,5 +105,25 @@
     font-size: 12px;
 }
 
+/*footer */
+.footer{
+    padding: 80px;
+}
+.footer-title h1{
+    font-size: 32px;
+}
+.footer-link-container{
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.footer-link-container li{
+    font-size: 16px;
+}
+.teams-condition{
+    gap: 20px;
+}
+.teams-condition li , .copy-right p{
+    font-weight:  400;
+}
 
 }
