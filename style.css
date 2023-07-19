@@ -1,7 +1,7 @@
 /* google font */
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:wght@400;500;600;700;800&display=swap");
 /*shared style*/
-*{
+* {
   margin: 0;
   padding: 0;
   font-family: Work Sans, sans-serif;
@@ -9,24 +9,24 @@
 .text-primary {
   color: #ff42a5;
 }
-.text-secondary{
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
- font-size: 48px;
- font-weight: 700;
- }
-.btn-primary{
+.text-secondary {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+.btn-primary {
   border-radius: 48px;
-  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
   padding: 20px 40px;
   font-size: 20px;
   font-weight: 600;
   color: #fff;
   border: none;
 }
-.btn-secondary{
+.btn-secondary {
   background-color: rgba(78, 197, 247, 1);
   border-radius: 48px;
   padding: 20px 40px;
@@ -35,17 +35,17 @@ background-clip: text;
   color: #fff;
   border: none;
   margin-left: 25px;
-
 }
-.section-title{
+.section-title {
   font-size: 48px;
   font-weight: 700;
 }
-.section-description , .card p{
-  color: #534C64;
- font-size: 18px;
- font-weight: 400;
-line-height: 30px; 
+.section-description,
+.card p {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 /* header */
@@ -76,7 +76,6 @@ line-height: 30px;
   align-items: center;
   gap: 30px;
   justify-content: space-evenly;
-
 }
 .nav-link {
   list-style: none;
@@ -126,17 +125,17 @@ line-height: 30px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.banner-context ul li{
+.banner-context ul li {
   list-style: none;
   font-size: 20px;
   font-weight: 500;
-  padding-top:15px ;margin-bottom:15px ;
-
+  padding-top: 15px;
+  margin-bottom: 15px;
 }
-.banner-context ul li span{
+.banner-context ul li span {
   margin-left: 10px;
 }
-.btn-group{
+.btn-group {
   margin-top: 40px;
 }
 
@@ -147,27 +146,126 @@ line-height: 30px;
   width: 100%;
 }
 
-
-
 /* main part started */
 
 /* online game section */
-.online-game-section{
+.online-game-section {
   margin: 100px 0;
   padding: 0 240px;
 }
-.online-game-section h2{
+.online-game-section h2 {
   text-align: center;
 }
- .online-game-section > p{
+.online-game-section > p {
   text-align: center;
   margin: 10px 0 50px;
 }
-.card-container{
+.card-container {
   display: grid;
   gap: 25px;
   grid-template-columns: repeat(4, 1fr);
 }
-.card img{
+.card img {
   width: 100%;
 }
+
+/* play online section */
+.play-online {
+  margin: 120px auto 220px;
+  padding-left: 240px;
+  display: flex;
+  gap: 230px;
+  align-items: center;
+}
+.play-img-container {
+  max-width: 710px;
+  position: relative;
+}
+#play-img-1 {
+  width: 100%;
+}
+#play-img-2 {
+  position: absolute;
+  bottom: -120px;
+  right: -130px;
+  max-width: 320px;
+}
+.play-online-info p {
+  padding-top: 25px;
+  max-width:480px ;
+  text-align: left;
+}
+
+/* icon game section start hare */
+
+.icon-game-section {
+ background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 120px 150px ;
+  gap: 20px;
+  
+}
+
+
+.icon-card{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  /* width: 240px; */
+  margin: 10px auto;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  padding: 30px 20px;  
+}
+#play-card-1:hover{
+  color: #ff42a5;
+  border: 1px solid #f948b2;
+}
+#play-card-2:hover{
+  color: #ff42a5;
+  border: 1px solid #f948b2;
+}
+#play-card-3:hover{
+  color: #ff42a5;
+  border: 1px solid #f948b2;
+}
+#play-card-4:hover{
+  color: #ff42a5;
+  border: 1px solid #f948b2;
+}
+#play-card-5:hover{
+  color: #ff42a5;
+  border: 1px solid #f948b2;
+}
+#play-card-6:hover{
+  color: #ff42a5;
+  border: 1px solid #f948b2;
+}
+#play-card-7:hover{
+  color: #ff42a5;
+  border: 1px solid #f948b2;
+}
+#play-card-8:hover{
+  color: #ff42a5;
+  border: 1px solid #f948b2;
+}
+#play-card-9:hover{
+  color: #ff42a5;
+  border: 1px solid #f948b2;
+}
+ 
+.icon-card img{
+  width: 50px;
+}
+.icon-card p{
+  color: #0B0223;
+ font-size: 20px;
+ font-weight: 600;
+ }
+
+ 
+
+

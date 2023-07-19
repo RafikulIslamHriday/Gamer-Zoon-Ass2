@@ -61,7 +61,49 @@
     .card{
         padding: 0px 30px;
     }
+
+
+    /* play online section */
+    .play-online{
+        flex-direction: column-reverse;
+        padding: 20px 0;
+        text-align: center;
+        margin: 50px auto 100px;
+        gap: 50px;
+    }
+.play-img-container {
+    max-width: 300px;
+}
+    #play-img-2{
+        max-width: 100px;
+        position: absolute;
+        bottom: -30px;
+        right: -50px;
+    }
+    .play-online-info p{
+        max-width: 300px;
+    }
     
+/* icon game section */
+.icon-game-section{
+    padding:50px 10px;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    
+}
+.icon-card {
+    margin: 0;
+    padding: 10px 20px ;
+    max-width: 80px;
+    gap: 10px;
+}
+.icon-card img{
+    width: 30px;
+}
+.icon-card p{
+    font-size: 12px;
+}
 
 
 }
