@@ -11,4 +11,29 @@
     .nav-link{
         padding: 10px 10px;
     }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-context{
+        max-width: fit-content;
+        margin: 20px auto 50px;
+        padding:60px 30px ;
+    }
+    .banner-context h1{
+        font-size: 65px;
+    }
+    .banner-context h3{
+        font-size: 40px;
+    }
+    .banner-context ul li{
+        font-size: 18px;
+    }
+    .btn-primary , .btn-secondary{
+        padding: 15px 20px;
+        font-size: 18px;
+    }
+    .btn-group{
+        text-align: center;
+    }
 }
