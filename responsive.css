@@ -1,7 +1,7 @@
 @media screen and (max-width:576px) {
     .navber{
         flex-direction: column;
-        padding: 100px 50px 70px;
+        padding: 40px 50px 70px;
         justify-content: center;
     }
     .nav-link-container{
