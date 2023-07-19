@@ -1,4 +1,14 @@
 @media screen and (max-width:576px) {
+   /* common style */
+   
+   .text-secondary, .section-title{
+    font-size:25px;
+    }
+    .section-description , .card p{
+        font-size: 15px;
+    }
+   
+   /*header  */
     .navber{
         flex-direction: column;
         padding: 40px 50px 70px;
@@ -11,6 +21,7 @@
     .nav-link{
         padding: 10px 10px;
     }
+    /* banner  */
 
     .banner{
         flex-direction: column-reverse;
@@ -36,4 +47,21 @@
     .btn-group{
         text-align: center;
     }
+    /* online game section */
+    .online-game-section{
+        margin: 50px auto;
+        padding: 20px 10px;
+    }
+    .online-game-section p{
+        margin-bottom: 30px;
+    }
+    .card-container{
+        grid-template-columns: 1fr;
+    }
+    .card{
+        padding: 0px 30px;
+    }
+    
+
+
 }
