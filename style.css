@@ -165,20 +165,62 @@
   gap: 25px;
   grid-template-columns: repeat(4, 1fr);
 }
-.card img {
+.card p{
+  padding-top:10px ;
+}
+.card-img{
+  position: relative;
+  max-width: 342px;
+}
+.card-img img {
   width: 100%;
 }
+.card:hover .card-img{
+  border: 5px solid #ff42a5;
+  border-radius: 10px;
+}
+.card-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.484);
+  opacity: 0;
+  transition: 0.6s;
+}
+.card:hover .card-overlay{
+  opacity: 1;
+}
+.card-overlay p{
+  font-size: 20px;
+  color: #ff42a5;
+  font-weight: 600;
+}
+.card-overlay i{
+  color: #fff;
+  font-size: 30px;
+}
+
+ 
+
+ 
 
 /* play online section */
 .play-online {
   margin: 120px auto 220px;
   padding-left: 240px;
+  padding-right: 50px;
   display: flex;
-  gap: 230px;
+  gap: 180px;
   align-items: center;
 }
 .play-img-container {
-  max-width: 710px;
+  max-width: 700px;
   position: relative;
 }
 #play-img-1 {
@@ -187,8 +229,8 @@
 #play-img-2 {
   position: absolute;
   bottom: -120px;
-  right: -130px;
-  max-width: 320px;
+  right: -120px;
+  max-width: 300px;
 }
 .play-online-info p {
   padding-top: 25px;
@@ -220,43 +262,14 @@
   border-radius: 50px;
   padding: 30px 20px;  
 }
-#play-card-1:hover{
+.icon-card:hover {
   color: #ff42a5;
   border: 1px solid #f948b2;
 }
-#play-card-2:hover{
+.icon-card:hover p {
   color: #ff42a5;
-  border: 1px solid #f948b2;
 }
-#play-card-3:hover{
-  color: #ff42a5;
-  border: 1px solid #f948b2;
-}
-#play-card-4:hover{
-  color: #ff42a5;
-  border: 1px solid #f948b2;
-}
-#play-card-5:hover{
-  color: #ff42a5;
-  border: 1px solid #f948b2;
-}
-#play-card-6:hover{
-  color: #ff42a5;
-  border: 1px solid #f948b2;
-}
-#play-card-7:hover{
-  color: #ff42a5;
-  border: 1px solid #f948b2;
-}
-#play-card-8:hover{
-  color: #ff42a5;
-  border: 1px solid #f948b2;
-}
-#play-card-9:hover{
-  color: #ff42a5;
-  border: 1px solid #f948b2;
-}
- 
+
 .icon-card img{
   width: 50px;
 }
